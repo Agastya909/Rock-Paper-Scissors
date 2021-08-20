@@ -1,5 +1,6 @@
 var names = ['rock', 'paper', 'scissors'];
 var userScore = 0, compScore = 0, counter = 0;
+// comp holds string for computer and user for user
 var comp, user;
 
 //  generates a random number and selects one choice for computer
