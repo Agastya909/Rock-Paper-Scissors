@@ -4,6 +4,6 @@
 screen.
 
 ### Content 
-    1. index.html[https://github.com/Agastya909/Rock-Paper-Scissors/blob/master/index.html]
-    2. index.js[https://github.com/Agastya909/Rock-Paper-Scissors/blob/master/index.js]
-    3. stles.css[https://github.com/Agastya909/Rock-Paper-Scissors/blob/master/styles.css]
+    1. [index.html](https://github.com/Agastya909/Rock-Paper-Scissors/blob/master/index.html)
+    2. [index.js](https://github.com/Agastya909/Rock-Paper-Scissors/blob/master/index.js)
+    3. [stles.css](https://github.com/Agastya909/Rock-Paper-Scissors/blob/master/styles.css)
