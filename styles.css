@@ -1,0 +1,89 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    font-size: 9rem;
+    text-align: center;
+    padding: 30px 70px;
+    font-family: 'Zilla Slab', serif;
+    color:#444941;
+    font-weight: 900;
+    margin: 0;
+}
+h2, h3 
+{
+    font-size: 5rem;
+    font-family: 'Zilla Slab', serif;
+    color:#444941;
+    margin: 0;
+}
+
+.head-section
+{
+    height: 30vh;
+    background-color: #7FC8A9;
+}
+
+
+.button-section
+{
+    background-color: #476072;
+    height: 25.8vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.button-prop
+{
+    font-size: 2rem;
+    background-color: #476072;
+    border: #476072;
+    border-radius: 25%;
+    width: 15%;
+}
+
+
+.rock-icon, .paper-icon, .scissor-icon
+{
+    color: #50CB93;
+}
+
+.rock-icon:hover, .paper-icon:hover, .scissor-icon:hover
+{
+    color: #04ff96;
+}
+
+.score-section 
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-color: #7FC8A9;
+    padding: 1%;
+}
+
+.restart
+{
+    background: #476072;
+    text-align: center;
+    padding: 1%;
+}
+
+.restart-button
+{
+    font-family: 'Zilla Slab', serif;
+    font-size: 3.25rem;
+    color:#7FC8A9;
+    background-color: #476072;
+    border: #444941;
+}
+
+.restart-button:hover
+{
+    color: #04ff96
+}

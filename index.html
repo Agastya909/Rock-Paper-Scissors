@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/497996c3e1.js" crossorigin="anonymous"></script>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="head-section">
+        <h1 id="heading">Rock Paper Scissor</h1>
+    </section>
+    <section class="button-section">
+        <button type="button" name="Rock" class="button-prop" id="rock"><i
+                class="fas fa-hand-rock fa-5x rock-icon"></i></button>
+        <button type="button" name="Paper" class="button-prop" id="paper"><i
+                class="fas fa-hand-paper fa-5x paper-icon"></i></button>
+        <button type="button" name="Scissor" class="button-prop" id="scissors"><i
+                class="fas fa-hand-scissors fa-5x scissor-icon"></i></button>
+    </section>
+    <section class="score-section">
+        <h2 class="score-class">You <h3 id="player-score-id">0 </h3></h2>
+        <h3 id="comp-score-id">0 </h3>
+        <h2 class="score-class"> Computer </h2>
+    </section>
+    <section class="restart">
+        <button type="button" class="restart-button" id="restart-id">
+            Restart <i class="fas fa-redo-alt"></i>
+        </button>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
