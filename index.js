@@ -12,7 +12,7 @@ function computerChoice() {
 // compares the two choices (comp and user) and updates the score
 function compare() {
     if (userScore == 10 || compScore == 10) {
-        return;
+        return; // this if makes sure that the counter does not go beyond 10
     }
     else if (comp == user) {
         return;
