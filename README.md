@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors
 
-:loudspeaker: This game is not  fully complete yet, content gets jumbled if browser window is not the full size of the 
-screen.
+A simple Rock Paper and Scissors game against computer.
 
+:point_right: <strong>To play</strong> simply run the <i>index.html</i> file on your computer. 
