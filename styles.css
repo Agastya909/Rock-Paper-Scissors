@@ -1,89 +1,195 @@
-body 
-{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-h1
-{
-    font-size: 9rem;
-    text-align: center;
-    padding: 30px 70px;
-    font-family: 'Zilla Slab', serif;
-    color:#444941;
-    font-weight: 900;
-    margin: 0;
+h1 {
+  font-size: 9rem;
+  text-align: center;
+  padding: 30px 70px;
+  font-family: "Zilla Slab", serif;
+  color: #444941;
+  font-weight: 900;
+  margin: 0;
 }
-h2, h3 
-{
+h2,
+h3 {
+  font-size: 5rem;
+  font-family: "Zilla Slab", serif;
+  color: #444941;
+  margin: 0;
+}
+
+/*  HEADING   */
+
+.head-section {
+  height: 30vh;
+  background-color: #7fc8a9;
+}
+
+/*  BUTTONS  */
+.button-section {
+  background-color: #476072;
+  height: 25.8vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.button-prop {
+  font-size: 2rem;
+  background-color: #476072;
+  border: #476072;
+  border-radius: 25%;
+  width: 15%;
+}
+
+.rock-icon,
+.paper-icon,
+.scissor-icon {
+  color: #50cb93;
+}
+
+.rock-icon:hover,
+.paper-icon:hover,
+.scissor-icon:hover {
+  color: #04ff96;
+}
+
+/*  SCORE  */
+
+.score-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  background-color: #7fc8a9;
+  padding: 1%;
+}
+
+/*  RESTART  */
+.restart {
+  background: #476072;
+  text-align: center;
+  padding: 1%;
+}
+
+.restart-button {
+  font-family: "Zilla Slab", serif;
+  font-size: 3.25rem;
+  color: #7fc8a9;
+  background-color: #476072;
+  border: #444941;
+}
+
+.restart-button:hover {
+  color: #04ff96;
+}
+
+/*  MEDIA QUERY  */
+
+@media (max-width: 540px) {
+  .head-section {
+    height: auto;
+    background-color: #7fc8a9;
+  }
+
+  h1 {
+    font-size: 3rem;
+    padding: 5% 0;
+  }
+
+  h2,
+  h3 {
+    font-size: 3rem;
+    font-family: "Zilla Slab", serif;
+    color: #444941;
+    margin: 0;
+  }
+
+  .button-section {
+    height: auto;
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-prop {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 5% 0;
+  }
+
+  .score-section {
+    padding: 5% 0;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+  .head-section {
+    height: auto;
+    background-color: #7fc8a9;
+  }
+
+  h1 {
+    font-size: 3rem;
+    padding: 5% 0;
+  }
+
+  h2,
+  h3 {
+    font-size: 3rem;
+    font-family: "Zilla Slab", serif;
+    color: #444941;
+    margin: 0;
+  }
+
+  .button-section {
+    height: auto;
+    padding: 10% 0;
+  }
+
+  .button-prop {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 5% 0;
+  }
+
+  .score-section {
+    padding: 5% 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+  .head-section {
+    height: auto;
+    background-color: #7fc8a9;
+  }
+
+  h1 {
+    font-size: 6.5rem;
+    padding: 3% 0;
+  }
+
+  h2,
+  h3 {
     font-size: 5rem;
-    font-family: 'Zilla Slab', serif;
-    color:#444941;
+    font-family: "Zilla Slab", serif;
+    color: #444941;
     margin: 0;
-}
+  }
 
-.head-section
-{
-    height: 30vh;
-    background-color: #7FC8A9;
-}
+  .button-section {
+    height: auto;
+    padding: 5% 0;
+  }
 
+  .button-prop {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 2.5% 0;
+  }
 
-.button-section
-{
-    background-color: #476072;
-    height: 25.8vh;
-    display: flex;
-    justify-content: space-around;
-    padding: 5%;
-}
-
-.button-prop
-{
-    font-size: 2rem;
-    background-color: #476072;
-    border: #476072;
-    border-radius: 25%;
-    width: 15%;
-}
-
-
-.rock-icon, .paper-icon, .scissor-icon
-{
-    color: #50CB93;
-}
-
-.rock-icon:hover, .paper-icon:hover, .scissor-icon:hover
-{
-    color: #04ff96;
-}
-
-.score-section 
-{
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    background-color: #7FC8A9;
-    padding: 1%;
-}
-
-.restart
-{
-    background: #476072;
-    text-align: center;
-    padding: 1%;
-}
-
-.restart-button
-{
-    font-family: 'Zilla Slab', serif;
-    font-size: 3.25rem;
-    color:#7FC8A9;
-    background-color: #476072;
-    border: #444941;
-}
-
-.restart-button:hover
-{
-    color: #04ff96
+  .score-section {
+    padding: 5% 0;
+  }
 }
